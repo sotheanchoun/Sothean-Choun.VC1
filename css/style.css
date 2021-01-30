@@ -1,0 +1,260 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;  
+}
+
+/* nainu */
+
+nav{
+    background: teal;
+    padding: 15px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    justify-content: space-evenly;
+}
+nav a:hover{
+    background: black;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px;
+    color: yellow;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+
+/* footer */
+
+footer{
+    background:teal;
+    padding: 8px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer i {
+  margin: 10px;
+  width: 100px;
+  height: 40px;
+}
+
+
+/* background */
+
+
+.a{
+    /* background: rgb(4, 51, 59); */
+    color: white;
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.b{
+    /* background-color:rebeccapurple; */
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+/* div.gallery {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  } */
+  
+  div.gallery img {
+    width: 99%;
+    height: 60vh;
+    margin-top:160px;
+    padding: 10px;
+  
+  }
+  
+  div.desc {
+    padding: 5px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.c{
+    background: rgb(80, 170, 192);
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.d{
+    background: rgb(60, 147, 173);
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/*  */
+
+header{
+    
+    padding: 50px;
+    text-transform: uppercase;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 80vh;
+    color: white;
+}
+.a1{
+    text-transform: lowercase;
+    font-size: 15px;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.a2{
+    width: 100%;
+    display: flex;
+}
+.a3{
+    width: 20%;
+}
+
+.a4{
+    width: 70%;
+    
+}
+img {
+  width: 30%;
+  height: 30%;
+  margin-top: 10px;
+  margin-left: 40px;
+  padding: 20px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 90%;
+  padding: 17px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+} 
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+input[type=submit] {
+  background-color:teal;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  width: 100%;
+  padding: 20px;
+} 
+input[type=submit]:hover {
+  background-color: #525261;
+  width: 100%;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+iframe {
+  width: 100%;
+  height: 70vh;
+}
+.cv{
+  text-align: center;
+  /* background-color: rgb(175, 139, 216); */
+  width: 5%;
+  height: 5%;
+  padding: 5%;
+}
+button a{
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 15px;
+  width: 60px;
+  color: black;
+}
+/* button{
+  padding: 20px;
+  height: 15px;
+  width: 30%;
+  background: #000; */
+
+.button:hover{
+  background-color: yellow;
+}
